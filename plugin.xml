@@ -1,0 +1,16 @@
+<plugin id="cordova-outsystems-ios-save-password" version="0.0.1"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>SavePassword</name>
+    <js-module name="SavePassword" src="www/iOSSavePassword.js">
+        <clobbers target="cordova-outsystems-ios-save-password" />
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="SavePassword">
+                <param name="ios-package" value="SavePassword" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/iOSSavePassword.swift" />
+    </platform>
+</plugin>
