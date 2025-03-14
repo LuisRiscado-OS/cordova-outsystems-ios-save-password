@@ -1,0 +1,28 @@
+{
+  "name": "cordova-outsystems-ios-save-password",
+  "version": "0.0.1",
+  "description": "An OutSystems, Cordova plugin to prompt the iOS password manager for autofill.",
+  "keywords": [
+    "cordova",
+    "plugin",
+    "ios",
+    "password",
+    "autofill"
+  ],
+  "license": "MIT",
+  "author": "Luís Riscado luis.riscado@outsystems.com",
+  "cordova": {
+    "id": "cordova-outsystems-ios-save-password",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuisRiscado-OS/cordova-outsystems-ios-save-password"
+  },
+  "bugs": {
+    "url": "https://github.com/LuisRiscado-OS/cordova-outsystems-ios-save-password/issues"
+  },
+  "homepage": "https://github.com/LuisRiscado-OS/cordova-outsystems-ios-save-password#readme"
+}
