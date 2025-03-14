@@ -1,4 +1,4 @@
-# Save password Cordova plugin
+# OutSystems Save Password on iOS Cordova plugin
 
 Adapted from: https://www.npmjs.com/package/capacitor-ios-autofill-save-password
 
