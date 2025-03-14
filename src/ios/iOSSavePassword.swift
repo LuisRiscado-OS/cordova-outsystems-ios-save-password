@@ -1,5 +1,4 @@
 import Foundation
-//import Capacitor
 import UIKit
 
 @objc(SavePassword) class SavePassword: CDVPlugin {
